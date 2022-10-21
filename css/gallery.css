@@ -1,3 +1,7 @@
+.container {
+    position: inherit;
+}    
+    
 #gallery {
     line-height:0;
     -webkit-column-count:5; /* split it into 5 columns */
@@ -43,7 +47,7 @@
 .thumbnail { 
     top:-50px; 
     left:-35px; 
-    display:block; 
+    display:block;
     z-index:999; 
     cursor: pointer; 
     -webkit-transition-property: all; 
@@ -52,4 +56,5 @@
 }
 .thumbnail:hover { 
     transform: scale(3);
+    padding-left: 75px;
 }
