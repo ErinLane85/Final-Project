@@ -102,34 +102,35 @@ footer .social {
     content: "";
     position: absolute;
     top: 0;
-    left: 0;
+    left: 30px;
     width: 100%;
     height: 100%;
-    background-image: url(/img/IMG_7795.JPG);
-    opacity: .8;
+    /* background-image: url(/img/IMG_7795.JPG); */
+    /* opacity: .5; */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
-    filter: brightness(60%);
+    /* filter: opacity(50%); */
+    opacity: 2;
 }
 .hero-content {
-    position: relative;
+    position: absolute;
     font-family: "Monserrat", sans-serif;
     color: white;
     text-align: center;
     margin: 0.625rem;
 }
 .hero-title {
-    font-size: 3rem;
-    font-weight: 600;
+    font-size: 3.5rem;
+    font-weight: bolder;
     margin-bottom: 0;
     color: white;
 }
 .hero-subtitle {
     font-size: 2rem;
-    font-weight: 200;
+    font-weight:bold;
     margin-top: 1rem;
-    color: whitesmoke;
+    color: white;
 }
 .link {
     float: left;
