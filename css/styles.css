@@ -75,7 +75,7 @@ footer {
     text-align: left;
     background: #00ffff;
     border: 1px solid #262626;
-    height: 7rem; 
+    height: 7rem;
 }
 footer .social {
     padding-top: 1.5rem;
@@ -156,4 +156,28 @@ footer .social {
     content: "";
     display: table;
     clear: both;
+}
+.container {
+    padding: 1.5rem;
+}
+#about {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+#about p {
+    padding-top: 1rem;
+}
+#route {
+    text-align: center;
+    padding-top: 1rem;
+}
+#route h2 {
+    padding-bottom: .5rem;
+}
+#route p {
+    margin-left: 13rem;
+    margin-right: 13rem;
+}
+iframe {
+    padding: 1rem;
 }
