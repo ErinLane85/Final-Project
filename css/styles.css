@@ -93,10 +93,13 @@ footer .social {
 .hero {
     position: relative;
     width: 100vw;
-    height: 75vh;
+    height: 77vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.hero img {
+    filter: brightness(85%);
 }
 .hero::before {
     content: "";
@@ -118,7 +121,8 @@ footer .social {
     font-family: "Monserrat", sans-serif;
     color: white;
     text-align: center;
-    margin: 0.625rem;
+    /* margin: 0.625rem; */
+    margin-bottom: 3rem;
 }
 .hero-title {
     font-size: 3.5rem;
